@@ -1,0 +1,168 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#nav {
+    height: 10vh;
+    background-color: #314073;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+}
+
+.back-btn {
+    background-color: #ffffff;
+    border: solid 1px white;
+    color: #314073;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.back-btn:hover {
+    background-color: #314073;
+    border: solid 1px white;
+    color: white;
+    transition: .15s;
+}
+
+.hamburger {
+    background-color: #314073;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.hamburger:hover {
+    color: #6f86e0;
+    text-shadow: 5px 5px 3px #000;
+    transition: .15s;
+}
+
+#menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border: solid 1px #314073;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.1s ease-in-out, visibility 0.1s;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #314073;
+    padding: 10px;
+    display: block;
+    transition: .15s;
+    font-size: 1.2rem;
+    border-bottom: solid 1px #314073;
+}
+
+#menu a:hover {
+    background-color: #314073;
+    color: white;
+    transition: .15s;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 15vh;
+    display: flex;
+}
+
+#clique {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#clique h1 {
+    font-size: 2em;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #314073;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+#footer p {
+    padding: 20px;
+    font-weight: bold;
+    font-size: auto;
+    margin: 0;
+    color: white;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footer ul li img {
+    flex-shrink: 1;
+    width: 30px;
+    margin: 10px;
+    transition: .2s;
+}
+
+#footer ul li img:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}

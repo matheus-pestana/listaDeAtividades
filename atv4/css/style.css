@@ -1,0 +1,141 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#nav {
+    height: 10vh;
+    background-color: #314073;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#nav p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+}
+
+.back-btn {
+    background-color: #ffffff;
+    border: solid 1px white;
+    color: #314073;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.back-btn:hover {
+    background-color: #314073;
+    border: solid 1px white;
+    color: white;
+    transition: .15s;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 15vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #314073;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #314073;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#addRowBtn {
+    background-color: #314073;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+#addRowBtn:hover {
+    background-color: #25355d;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #314073;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+#footer p {
+    padding: 20px;
+    font-weight: bold;
+    font-size: auto;
+    margin: 0;
+    color: white;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footer ul li img {
+    flex-shrink: 1;
+    width: 30px;
+    margin: 10px;
+    transition: .2s;
+}
+
+#footer ul li img:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
