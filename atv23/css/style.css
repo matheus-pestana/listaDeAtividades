@@ -58,7 +58,7 @@ main {
 
 #tempo {
     width: auto;
-    /* height: auto; */
+    padding: 20px;
     border: solid 1px #314073;
     border-radius: 20px;
     display: flex;
@@ -104,8 +104,8 @@ button i {
 }
 
 .content {
-    width: 40vw;
-    height: 20vh;
+    width: 100%;
+    height: auto;
     justify-content: center;
     word-break: break-word;
   }

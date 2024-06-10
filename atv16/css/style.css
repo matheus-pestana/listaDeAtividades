@@ -103,9 +103,13 @@ main {
     margin-top: 10px;
     border-radius: 5px;
     background-color: #f1f1f1;
+    word-wrap: break-word;
+}
+
+#tarefas ul li {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
 }
 
 #tarefas li.concluida {
@@ -116,7 +120,8 @@ main {
     background-color: #314073;
     color: #ffffff;
     border: none;
-    padding: 5px 10px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: .15s;

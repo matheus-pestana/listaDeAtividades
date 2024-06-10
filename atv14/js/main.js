@@ -6,16 +6,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var allImages = document.querySelectorAll(".genshin, .honkai");
 
     genshinButton.onclick = function(event) {
-        event.preventDefault(); // Evita que o navegador siga o link
+        event.preventDefault();
 
         if (genshinButton.classList.contains("active")) {
-            // Se o botão Genshin já está ativo, mostra todas as imagens e remove a classe .active
             for (var img of allImages) {
                 img.style.display = "block";
             }
             genshinButton.classList.remove("active");
         } else {
-            // Caso contrário, mostra apenas as imagens de Genshin e adiciona a classe .active
             for (var img of genshinImages) {
                 img.style.display = "block";
             }
@@ -28,10 +26,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     honkaiButton.onclick = function(event) {
-        event.preventDefault(); // Evita que o navegador siga o link
+        event.preventDefault();
 
         if (honkaiButton.classList.contains("active")) {
-            // Se o botão Honkai já está ativo, mostra todas as imagens e remove a classe .active
             for (var img of allImages) {
                 img.style.display = "block";
             }

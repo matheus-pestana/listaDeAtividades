@@ -53,7 +53,7 @@ main {
 }
 
 #content {
-    height: 70vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,20 +67,26 @@ main {
     border-radius: 20px;
 }
 
+#form p {
+    font-weight: bold;
+    text-align: center;
+}
+
 #inputs {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
-.nome, .email, .msg {
+.nome, .msg {
     padding: 10px;
-    margin: 10px;
 }
 
 .btn {
     background-color: #314073;
     color: white;
     padding: 10px;
+    margin: 10px;
     border-radius: 20px;
     border: solid 1px #6f86e0;
     cursor: pointer;

@@ -50,7 +50,7 @@ body {
 main {
     width: 100%;
     padding-bottom: 15vh;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@ main {
 #container {
     border: solid 1px #314073;
     border-radius: 40px;
-    width: 10%;
+    width: 30%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -69,6 +69,7 @@ main {
 }
 
 #inputs {
+    width: 90%;
     display: flex;
     flex-direction: column;
 }
