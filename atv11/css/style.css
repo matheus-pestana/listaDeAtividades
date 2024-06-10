@@ -53,51 +53,48 @@ body {
     transition: .15s;
 }
 
-.hamburger {
-    background-color: #314073;
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size: 3rem;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: .15s;
+#menu-container {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.hamburger:hover {
-    color: #6f86e0;
-    text-shadow: 5px 5px 3px #000;
-    transition: .15s;
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.hamburguer:hover {
+    text-shadow: 5px 5px #000
 }
 
 #menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: #ffffff;
-    border: solid 1px #314073;
-    border-radius: 5px;
-    padding: 10px;
-    width: 200px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.1s ease-in-out, visibility 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: c;
 }
 
 #menu a {
-    text-decoration: none;
-    color: #314073;
-    padding: 10px;
     display: block;
-    transition: .15s;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
     font-size: 1.2rem;
-    border-bottom: solid 1px #314073;
+    font-weight: bold;
 }
 
 #menu a:hover {
-    background-color: #314073;
-    color: white;
-    transition: .15s;
+    background-color: white;
+    color: #314073;
+}
+
+#menu.show {
+    display: block;
 }
 
 main {
@@ -165,4 +162,39 @@ h1 {
 #footer ul li img:hover {
     transform: scale(1.1);
     transition: .2s;
+}
+
+@media screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+        order: 1;
+    }
+
+    #menu-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        order: 2;
+        display: none;
+        margin-top: 10px;
+    }
+
+    #menu a {
+        display: block;
+        text-decoration: none;
+        background-color: #314073;
+        color: white;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #menu a:hover {
+        background-color: #f9f9f9;
+    }
+
+    #menu.show {
+        display: block;
+    }
 }

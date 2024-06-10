@@ -52,6 +52,33 @@ main {
     padding-bottom: 15vh;
 }
 
+#faq-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#faq-list li {
+    width: 50%;
+    background-color: #314073;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq-answer-visible {
+    display: block;
+}
+
 #footer {
     position: fixed;
     bottom: 0;

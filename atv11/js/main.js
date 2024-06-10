@@ -1,10 +1,9 @@
 function toggleMenu() {
     var menu = document.getElementById('menu');
-    if (menu.style.opacity === "0") {
-        menu.style.opacity = "1";
-        menu.style.visibility = "visible";
+
+    if (menu.classList.contains('show')) {
+        menu.classList.remove('show');
     } else {
-        menu.style.opacity = "0";
-        menu.style.visibility = "hidden";
+        menu.classList.add('show');
     }
 }

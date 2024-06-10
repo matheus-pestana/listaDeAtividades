@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +22,18 @@
 
     <main>
 
-
+        <form id="formPagamento">
+            <h1>Checkout</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <label for="cartao">Número do cartão:</label>
+            <input type="text" id="cartao" placeholder="Número do cartão" required maxlength="18">
+            <label for="validade">Validade:</label>
+            <input type="text" id="validade" placeholder="Validade (mm/aa)" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" placeholder="Código de segurança" required>
+            <button type="submit" onclick="paga()">Pagar</button>
+        </form>
 
     </main>
 
