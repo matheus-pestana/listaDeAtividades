@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener("DOMContentLoaded", () => {
     const listItems = document.querySelectorAll(".lista li a");
 

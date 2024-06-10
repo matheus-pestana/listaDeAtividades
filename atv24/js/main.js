@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 const audioUpload = document.getElementById('audio-upload');
 const audio = document.getElementById('audio');
 const playButton = document.getElementById('play');

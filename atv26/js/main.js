@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', function() {
     const messages = document.getElementById('messages');
     const input = document.getElementById('input');

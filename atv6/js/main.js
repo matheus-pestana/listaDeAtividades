@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 function envia() {
     var nome = document.getElementById('nome').value;
     var msg = document.getElementById('msg').value;

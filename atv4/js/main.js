@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById("addLinha");
     const tabela = document.getElementById("dynamicTable").getElementsByTagName("tbody")[0];

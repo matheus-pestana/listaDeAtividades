@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 function paga() {
     var formPagamento = document.getElementById('formPagamento');
 

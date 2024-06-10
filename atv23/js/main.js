@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('btn').addEventListener('click', function () {
         const input = document.querySelector("input");

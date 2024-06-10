@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', (event) => {
     var modal = document.getElementById("modal");
     var btn = document.getElementById("openModalButton");

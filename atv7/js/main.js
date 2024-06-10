@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', (event) => {
     var dropdown = document.getElementById("dropdownMenu");
     var btn = document.getElementById("dropdownButton");

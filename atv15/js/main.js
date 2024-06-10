@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', (event) => {
     var texto = document.getElementById("texto");
     var contadorPalavras = document.getElementById("palavras");

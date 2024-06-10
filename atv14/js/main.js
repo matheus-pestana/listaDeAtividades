@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.addEventListener('DOMContentLoaded', (event) => {
     var genshinButton = document.getElementById("genshin");
     var honkaiButton = document.getElementById("honkai");

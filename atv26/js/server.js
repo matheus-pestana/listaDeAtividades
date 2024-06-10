@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 const io = require('socket.io')({
     cors: {
         origin: "*",

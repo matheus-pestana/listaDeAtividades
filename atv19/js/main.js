@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 document.getElementById('arquivo').addEventListener('change', function(e) {
     var visualizacao = document.getElementById('visualizacao');
     visualizacao.innerHTML = '';

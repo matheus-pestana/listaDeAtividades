@@ -1,3 +1,5 @@
+// <!-- Matheus Arcangelo Pestana -->
+
 var mapa;
 function inicializarMapa() {
     var minhaLocalizacao = { lat: -23.5505, lng: -46.6333 };
